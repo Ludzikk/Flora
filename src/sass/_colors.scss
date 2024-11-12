@@ -1,4 +1,12 @@
-$section-color-1: #282A3F;
-$text-header-green: #358235;
-$text-secondary: #E0B028;
-$body-color: #f6fcf8;
+$section-color-1: linear-gradient(
+	180deg,
+	rgb(40, 42, 63) 0%,
+	rgb(44, 46, 73) 100%
+);
+$text-header-green: #90cb3d;
+$text-green-secondary: #e8f8d2;
+$text-secondary: #e0b028;
+$body-color: rgb(246, 252, 248);
+$nav-color: rgb(246, 252, 248);
+// $card-color: #F4EAE1;
+$card-color: rgb(38, 40, 60);

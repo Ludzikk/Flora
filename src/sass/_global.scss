@@ -8,10 +8,6 @@ body {
 .header {
 	position: relative;
 	height: 100vh;
-	background-image: url("../img/heroimgsmall.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 
 	&__bg {
 		position: absolute;
@@ -45,6 +41,29 @@ body {
 	font-size: 1.8rem;
 	color: rgb(55, 74, 68);
 	background-color: rgb(140, 189, 175);
+}
+
+.btn-sub {
+	border-bottom-right-radius: 0.375rem !important;
+	border-top-right-radius: 0.375rem !important;
+}
+
+.input-sub {
+	border-bottom-left-radius: 0.375rem !important;
+	border-top-left-radius: 0.375rem !important;
+}
+
+.plant-card {
+	background: $card-color;
+	border-color: rgb(56, 59, 89) !important;
+}
+
+.plant-img {
+	filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.3));
+}
+
+.fa-plus {
+	background: $text-green-secondary;
 }
 
 @media (min-width: 768px) {
