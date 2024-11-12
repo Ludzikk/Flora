@@ -1,7 +1,7 @@
 @use "./colors" as *;
 
 body {
-	background: #f6fcf8;
+	background: $body-color;
 	overflow-x: hidden;
 }
 
